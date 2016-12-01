@@ -3,9 +3,9 @@ $(document).ready(function () {
         'url': '/service.php',
         'dataType': 'json',
     }).done(function (response) {
-        $('#team-name').html(response.data.team_city + " " + response.data.team_name);
+        $('#team-name').html(response.data.teamCity + " " + response.data.teamName);
         $.each(response.data.categories, function (k, v) {
-            $('.arrest-body').append(
+            $('#arrest-body').append(
                 '<tr>' +
                     '<td>' + v.Category + '</td>' +
                     '<td>' + v.arrest_count + '</td>' +
