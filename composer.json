@@ -1,0 +1,13 @@
+{
+    "name": "asg/problems",
+    "description": "A poorly built PHP project with some basic problems.",
+    "authors": [
+        {
+            "name": "Thomas Constant",
+            "email": "tom@wncit.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
