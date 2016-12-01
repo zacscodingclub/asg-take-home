@@ -40,6 +40,6 @@ function presentData(team) {
     $('.body-content').removeClass('hide');
 }
 
-function handleError(jqXHR, textStatus, errorThrown) {
-    console.log(textStatus + " Error: " + errorThrown)
+function handleError(jqXHR, textStatus) {
+    console.log("Error retreiving data.")
 }
