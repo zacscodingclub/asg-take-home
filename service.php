@@ -30,7 +30,7 @@ $response->data = false;
 */
 $getData = function ($requestUrl) {
     // Instantiate Guzzle Client
-    $client = new Client();
+    $client = new GuzzleClient();
 
     // Request API Data and catch request exceptions
     try {
